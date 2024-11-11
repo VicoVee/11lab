@@ -30,7 +30,7 @@ class MyService : Service() {
         scope.launch {
             //TODO: Modify this repeat so it can take any user input
             repeat(time) {i ->
-                Log.d("VIVI", i.toString())
+                Log.d("VIVI", (i+1).toString())
                 delay(1000)
             }
         }
