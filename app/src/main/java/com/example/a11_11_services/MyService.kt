@@ -31,7 +31,7 @@ class MyService : Service() {
             //TODO: Modify this repeat so it can take any user input
             repeat(time) {i ->
                 Log.d("VIVI", i.toString())
-                delay(100)
+                delay(1000)
             }
         }
     }
